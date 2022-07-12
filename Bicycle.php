@@ -2,13 +2,13 @@
 
     class Bicycle
     {
-        //Attributs
+        
         private string $color = "blue";
         private int $currentSpeed = 15;
         private int $nbSeats = 1;
         private int $nbWheels = 2;
 
-        //Constructeur
+        
         public function __construct(string $color)
         {
             $this->color = $color;
@@ -58,7 +58,7 @@
             $this->nbWheels = $nbWheels;
         }
 
-        //Méthodes
+        
         public function forward(): string
         {
           $this->currentSpeed=15;
